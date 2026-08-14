@@ -21,43 +21,169 @@ export const skills = [
 
 export const projects = [
   {
-    id: "fintech",
-    name: "FinTech Transaction Management Platform",
-    type: "Enterprise-style simulation",
-    problem: "A reliable demo platform needs authentication, account flows, balance handling and traceable transaction history without pretending to process real money.",
-    solution: "A Spring Boot transaction service with PostgreSQL, validation, JWT-based access control and transactional business operations.",
-    stack: ["Java", "Spring Boot", "PostgreSQL", "Spring Security", "JWT", "Docker"],
-    highlights: ["ACID transaction boundaries", "Role-based authorization", "Idempotency design", "Global exception handling", "Pagination", "Audit-oriented thinking"],
-    architecture: ["React Client", "REST API", "Spring Security", "Service Layer", "Repository Layer", "PostgreSQL"],
-    github: "https://github.com/your-github",
+    id: "employee-management",
+    name: "Employee Management System",
+    type: "Java CRUD Application",
+
+    problem:
+      "Managing employee records manually can make registration, performance information and reporting difficult to organize and maintain.",
+
+    solution:
+      "Developed a Java-based Employee Management System using JDBC and MySQL to manage employee registration, performance evaluation and employee reporting details.",
+
+    stack: ["Java", "JDBC", "MySQL"],
+
+    highlights: [
+      "Employee registration",
+      "Employee data management",
+      "Performance evaluation",
+      "Employee reporting",
+      "CRUD operations",
+      "MySQL database integration"
+    ],
+
+    architecture: [
+      "Java Application",
+      "JDBC",
+      "CRUD Operations",
+      "MySQL"
+    ],
+
+    github: "https://github.com/Mahesh-656/Employee",
+
     live: "",
-    note: "Simulation/demo only — no real financial transactions."
+
+    note:
+      "Java CRUD application focused on employee data management and database operations."
   },
+
   {
-    id: "healthcare",
-    name: "Healthcare Appointment & Billing Platform",
-    type: "Enterprise-style project concept",
-    problem: "Healthcare workflows require clear separation of patients, clinicians, appointments, billing and access permissions.",
-    solution: "A role-aware Spring Boot API model backed by PostgreSQL with validation and audit-friendly business flows.",
-    stack: ["Java", "Spring Boot", "Spring Security", "PostgreSQL", "JPA"],
-    highlights: ["Patient management", "Doctor management", "Appointment scheduling", "Billing workflow", "RBAC", "Audit logging"],
-    architecture: ["Web Client", "REST Controller", "Security", "Appointment Service", "Billing Service", "PostgreSQL"],
-    github: "https://github.com/your-github",
+    id: "hospital-management",
+    name: "Hospital Management System",
+    type: "Java CRUD Application",
+
+    problem:
+      "Hospital administration requires organized management of patient registrations, appointments and staff information across different operational workflows.",
+
+    solution:
+      "Developed a Java-based Hospital Management System using JDBC and MySQL to manage patient registration, appointment scheduling and staff details.",
+
+    stack: ["Java", "JDBC", "MySQL"],
+
+    highlights: [
+      "Patient registration",
+      "Appointment scheduling",
+      "Staff management",
+      "Patient data management",
+      "CRUD operations",
+      "MySQL database integration"
+    ],
+
+    architecture: [
+      "Java Application",
+      "JDBC",
+      "CRUD Operations",
+      "MySQL"
+    ],
+
+    github: "https://github.com/Mahesh-656/Hospital",
+
     live: "",
-    note: "Concept/demo data only. No real patient data."
+
+    note:
+      "Java CRUD application designed for hospital administrative and patient management workflows."
   },
+
   {
-    id: "ai-support",
-    name: "AI-Powered Support Platform",
-    type: "GenAI-focused project",
-    problem: "Support teams need grounded answers from internal knowledge rather than generic model responses.",
-    solution: "A Spring Boot + Spring AI workflow for document ingestion, retrieval, embeddings and conversational responses.",
-    stack: ["Java", "Spring Boot", "Spring AI", "RAG", "LLM", "Vector Search"],
-    highlights: ["Knowledge-base ingestion", "Embeddings", "Retrieval pipeline", "Conversation history", "Authentication", "Grounded generation"],
-    architecture: ["Client", "REST API", "Auth", "RAG Orchestrator", "Vector Search", "LLM"],
-    github: "https://github.com/your-github",
+    id: "jobify",
+    name: "Jobify",
+    type: "AI-Powered Job Application Platform",
+
+    problem:
+      "Job seekers often spend significant time reviewing job opportunities and matching their skills against suitable roles. Jobify aims to streamline this process through resume analysis and personalized job recommendations.",
+
+    solution:
+      "Built an AI-powered job application platform using React, Spring Boot and MongoDB. The platform analyzes resumes, extracts skills, suggests relevant job opportunities and provides application tracking with JWT-based authentication.",
+
+    stack: [
+      "Java",
+      "Spring Boot",
+      "React",
+      "MongoDB",
+      "JWT"
+    ],
+
+    highlights: [
+      "Resume analysis",
+      "Skill extraction",
+      "Job recommendations",
+      "Application tracking",
+      "JWT authentication",
+      "MongoDB integration",
+      "React frontend",
+      "Spring Boot backend"
+    ],
+
+    architecture: [
+      "React Client",
+      "REST API",
+      "JWT Authentication",
+      "Spring Boot",
+      "Service Layer",
+      "MongoDB"
+    ],
+
+    github: "https://github.com/Mahesh-656/Jobify",
+
+    live: "https://jobifyclient-production-8aff.up.railway.app/",
+
+    note:
+      "AI-powered job application platform for resume analysis, job recommendations and application tracking."
+  },
+
+  {
+    id: "movie-management",
+    name: "Movie Management System",
+    type: "Spring Boot + MongoDB Application",
+
+    problem:
+      "Movie platforms need structured content management while allowing users to discover movies, submit ratings and reviews, and providing administrators with control over platform content.",
+
+    solution:
+      "Developed a movie management platform using Spring Boot and MongoDB with JWT authentication, user rating and review functionality, movie management and an administrative dashboard for content control.",
+
+    stack: [
+      "Java",
+      "Spring Boot",
+      "MongoDB",
+      "JWT"
+    ],
+
+    highlights: [
+      "Movie management",
+      "User ratings",
+      "Movie reviews",
+      "JWT authentication",
+      "Admin dashboard",
+      "MongoDB integration",
+      "Content management"
+    ],
+
+    architecture: [
+      "Client",
+      "REST API",
+      "JWT Authentication",
+      "Spring Boot",
+      "Service Layer",
+      "MongoDB"
+    ],
+
+    github: "https://github.com/Mahesh-656/Movie_Backend",
+
     live: "",
-    note: "Only keep technologies here that are implemented in the final repository."
+
+    note:
+      "Spring Boot and MongoDB application for movie management, user reviews, ratings and administrative content control."
   }
 ];
 
